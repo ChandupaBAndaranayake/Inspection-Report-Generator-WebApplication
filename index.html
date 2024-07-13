@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspection Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="inspectionForm">
+        <label for="inspectorName">Inspector Name:</label>
+        <input type="text" id="inspectorName" name="inspectorName" required>
+        
+        <label for="inspectionDate">Inspection Date:</label>
+        <input type="date" id="inspectionDate" name="inspectionDate" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
